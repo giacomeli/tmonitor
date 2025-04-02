@@ -1,0 +1,5 @@
+SESSION_NAME="My Laravel App Monitor"
+
+CMD1="tail -f storage/logs/laravel.log"
+CMD2="composer dumpa && php artisan optimize:clear && npm run build && php artisan queue:work"
+CMD3="php artisan command:run-custom-command"
