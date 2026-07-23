@@ -1,6 +1,16 @@
 # TMonitor - Terminal Monitor for Multi-Pane Development Workflows
 
-TMonitor is a lightweight shell-based utility to streamline your terminal-based development workflow using `tmux`. It creates a session with any number of command panes plus a free interactive shell, from a simple config file, from command-line flags, or both — perfect for managing logs, workers, build tools, and SSH-based workflows.
+<p align="center">
+  <img src="promo-assets/tmonitor-tmux-session-manager-1280x640.png" alt="TMonitor banner: terminal monitor for multi-pane development workflows built on tmux" width="800">
+</p>
+
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/giacomeli/tmonitor" alt="License: MIT"></a>
+  <img src="https://img.shields.io/badge/shell-bash-4EAA25" alt="Shell: bash">
+  <img src="https://img.shields.io/badge/tmux-3.5%2B-1BB91F" alt="tmux 3.5 or newer">
+</p>
+
+TMonitor is a lightweight, shell-based tmux session manager for terminal monitoring dashboards. It creates a session with any number of command panes plus a free interactive shell — from a simple config file, from command-line flags, or both — perfect for managing logs, workers, build tools, and SSH-based workflows.
 
 ## Motivation
 
@@ -212,4 +222,4 @@ Feel free to fork, improve, or submit PRs. Ideas and feedback are always welcome
 
 ## License
 
-MIT
+MIT — see [LICENSE](LICENSE).
