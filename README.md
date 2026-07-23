@@ -158,7 +158,7 @@ tmonitor.sh --session="deploy-watch" \
 
 `--detach` creates the session and returns immediately; attach later with `tmux attach -t deploy-watch`.
 
-This repository ships an agent skill at [`skills/tmonitor/`](./skills/tmonitor/) that teaches LLM coding assistants (Claude Code and similar) how to drive TMonitor: always creating sessions detached, labeling panes, picking layouts, and managing reload/restore. In this repo it is already linked at `.claude/skills/tmonitor`; to use it from other projects, copy or symlink the folder into `~/.claude/skills/`.
+This repository ships an agent skill at [`skills/tmonitor/`](./skills/tmonitor/) that teaches LLM coding assistants (Claude Code and similar) how to drive TMonitor: always creating sessions detached, labeling panes, picking layouts, and managing reload/restore. To use it, copy or symlink the folder into `~/.claude/skills/` (globally) or into the `.claude/skills/` directory of the project where you want it available.
 
 ### Session recovery
 

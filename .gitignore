@@ -1,2 +1,4 @@
 specs
 .vscode
+.claude/
+utils/
