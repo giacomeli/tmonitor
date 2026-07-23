@@ -12,6 +12,10 @@
 
 TMonitor is a lightweight, shell-based tmux session manager for terminal monitoring dashboards. It creates a session with any number of command panes plus a free interactive shell — from a simple config file, from command-line flags, or both — perfect for managing logs, workers, build tools, and SSH-based workflows.
 
+<p align="center">
+  <img src="promo-assets/tmonitor-tmux-session-demo-1400x760.gif" alt="Animated demo of a real TMonitor session: three labeled command panes with API logs, a queue worker and a Vite dev server, plus an interactive shell and CPU, memory and disk stats in the tmux status bar" width="900">
+</p>
+
 ## Motivation
 
 In nearly every development scenario — web apps, CLI tools, APIs, background jobs — we constantly perform repetitive terminal tasks:
